@@ -22,7 +22,7 @@ In this implementation of hash joins, we propose and apply a deployment algorith
 ## Download
 
 ```bash
-git clone git@github.com:zeyiwen/thundersvm.git
+git clone https://github.com/PatrickXC/HashJoin_HMA.git
 ```
 
 ## Build
