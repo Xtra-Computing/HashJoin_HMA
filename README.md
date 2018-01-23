@@ -1,5 +1,5 @@
 # HashJoin_HMA
-A hash join implementation optimized for many-core processors with die-stacked HBMs
+A hash join implementation optimized for many-core processors with die-stacked HBMs.
 
 ## Overview
 
@@ -33,4 +33,12 @@ make hj_hma
 
 ## Generate inputs
 
+```bash
+make write
+./write [size of outer relation] [size of inner relation] [number of threads]
+```
+
 ## Run
+```bash
+./hj_hma [size of outer relation] [size of inner relation] [number of threads]
+```

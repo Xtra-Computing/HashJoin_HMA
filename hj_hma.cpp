@@ -1131,10 +1131,10 @@ int main(int argc, char **argv)
 
 	double selc=1.0;
 	std::string name1,name2,name3,name4;
-	name1.append("./data_repo/i128/ik");
-	name2.append("./data_repo/i128/iv");
-	name3.append("./data_repo/i128/ok");
-	name4.append("./data_repo/i128/ov");
+	name1.append("./ik");
+	name2.append(".iv");
+	name3.append("./ok");
+	name4.append("./ov");
 	name1.append("_");
 	name2.append("_");
 	name3.append("_");
