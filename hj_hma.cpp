@@ -35,7 +35,6 @@
 #include <hbwmalloc.h>
 #include <numa.h>
 #include "hash_table.h"
-#include <stdatomic.h>
 
 #define NUM_SAMPLE_BUCKETS 100
 
