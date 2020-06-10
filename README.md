@@ -47,3 +47,31 @@ make write
 ```bash
 ./hj_hma [size of outer relation] [size of inner relation] [number of threads]
 ```
+
+## Cite this work
+If you use it in your paper, please cite our work ([full version](https://www.comp.nus.edu.sg/~hebs/pub/hbm-cikm19.pdf)).
+```
+@inproceedings{10.1145/3357384.3358015,
+author = {Cheng, Xuntao and He, Bingsheng and Lo, Eric and Wang, Wei and Lu, Shengliang and Chen, Xinyu},
+title = {Deploying Hash Tables on Die-Stacked High Bandwidth Memory},
+year = {2019},
+isbn = {9781450369763},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3357384.3358015},
+doi = {10.1145/3357384.3358015},
+booktitle = {Proceedings of the 28th ACM International Conference on Information and Knowledge Management},
+pages = {239–248},
+numpages = {10},
+keywords = {die-stacked high bandwidth memory, hash joins},
+location = {Beijing, China},
+series = {CIKM ’19}
+}
+
+```
+### Related publications
+* Saurabh Jha, Bingsheng He, Mian Lu, Xuntao Cheng, and Huynh Phung Huynh. 2015. [Improving main memory hash joins on Intel Xeon Phi processors: an experimental approach](http://www.vldb.org/pvldb/vol8/p642-Jha.pdf). Proc. VLDB Endow. 8, 6 (February 2015), 642–653.
+
+* Xuntao Cheng, Bingsheng He, Xiaoli Du, and Chiew Tong Lau. 2017. [A Study of Main-Memory Hash Joins on Many-core Processor: A Case with Intel Knights Landing Architecture](https://www.comp.nus.edu.sg/~hebs/pub/Hash_Join_on_KNL_CIKM17.pdf). In Proceedings of the 2017 ACM on Conference on Information and Knowledge Management (CIKM ’17). Association for Computing Machinery, New York, NY, USA, 657–666. 
+
+* Xuntao Cheng, Bingsheng He, Mian Lu, Chiew Tong Lau, Huynh Phung Huynh, and Rick Siow Mong Goh. 2016. [Efficient Query Processing on Many-core Architectures: A Case Study with Intel Xeon Phi Processor](https://dl.acm.org/doi/10.1145/2882903.2899407). In Proceedings of the 2016 International Conference on Management of Data (SIGMOD ’16). Association for Computing Machinery, New York, NY, USA, 2081–2084. 
